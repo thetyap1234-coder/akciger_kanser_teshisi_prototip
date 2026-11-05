@@ -1,0 +1,1 @@
+# akciger_kanser_teshisi_prototip
