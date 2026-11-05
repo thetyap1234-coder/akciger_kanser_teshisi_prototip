@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinik Akciğer Kanseri Risk Analiz Paneli</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>🫁 AI Sağlık Analiz Paneli</h1>
+            <p>Akciğer kanseri erken risk değerlendirme sistemi</p>
+        </header>
+
+        <form id="prediction-form">
+            <!-- Kategori 1: Genel Bilgiler -->
+            <div class="card-section">
+                <h3>👤 1. Genel Bilgiler</h3>
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label>Yaş</label>
+                        <input type="number" id="age" value="50" min="1" max="120" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Cinsiyet</label>
+                        <select id="gender">
+                            <option value="1">Erkek</option>
+                            <option value="0">Kadın</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kategori 2: Yaşam Tarzı ve Alışkanlıklar -->
+            <div class="card-section">
+                <h3>🚬 2. Yaşam Tarzı & Alışkanlıklar</h3>
+                <div class="input-grid">
+                    <div class="input-group"><label>Sigara Kullanımı</label><select id="smoking"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Alkol Tüketimi</label><select id="alcohol"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Akran Baskısı</label><select id="peer_pressure"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Sarı Parmaklar</label><select id="yellow_fingers"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                </div>
+            </div>
+
+            <!-- Kategori 3: Klinik Semptomlar -->
+            <div class="card-section">
+                <h3>🩺 3. Fiziksel Semptomlar & Geçmiş</h3>
+                <div class="input-grid">
+                    <div class="input-group"><label>Anksiyete</label><select id="anxiety"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Kronik Hastalık</label><select id="chronic_disease"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Kronik Yorgunluk</label><select id="fatigue"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Alerji Durumu</label><select id="allergy"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Hırıltılı Solunum</label><select id="wheezing"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Şiddetli Öksürük</label><select id="coughing"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Nefes Darlığı</label><select id="shortness_of_breath"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Yutma Güçlüğü</label><select id="swallowing"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                    <div class="input-group"><label>Göğüs Ağrısı</label><select id="chest_pain"><option value="2">Evet</option><option value="1" selected>Hayır</option></select></div>
+                </div>
+            </div>
+
+            <button type="submit" id="submit-btn">
+                <span id="btn-text">Yapay Zeka Analizini Başlat</span>
+                <span id="spinner" class="hidden"></span>
+            </button>
+        </form>
+
+        <div id="result-box" class="hidden">
+            <h2 id="risk-status"></h2>
+            <p id="risk-prob"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

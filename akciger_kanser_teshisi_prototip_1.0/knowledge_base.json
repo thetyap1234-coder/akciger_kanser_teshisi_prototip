@@ -1,0 +1,104 @@
+{
+  "_uyari": "TASLAK BİLGİ TABANI. Yayımlamadan önce bir göğüs hastalıkları uzmanı tarafından gözden geçirilmeli ve resmi kılavuz/kaynaklarla (T.C. Sağlık Bakanlığı vb.) değiştirilmeli veya doğrulanmalıdır. Asistan yalnızca bu dosyadaki bilgileri kullanır.",
+  "passages": [
+    {
+      "id": "belirti-degerlendirme",
+      "title": "Belirtilerde hekime başvuru",
+      "tags": ["öksürük", "nefes darlığı", "göğüs ağrısı", "ses kısıklığı", "kilo kaybı", "halsizlik", "hırıltı", "tekrarlayan enfeksiyon"],
+      "always_for": ["HIGH", "BORDER", "LOW"],
+      "text": "Üç haftadan uzun süren veya giderek kötüleşen öksürük, nefes darlığı, göğüs ya da sırt ağrısı, ses kısıklığı, açıklanamayan kilo kaybı ve sık tekrarlayan akciğer enfeksiyonları, risk skorundan bağımsız olarak bir sağlık kuruluşunda değerlendirilmelidir. Bu belirtilerin birçoğunun nedeni daha sık görülen ve tedavisi olan başka durumlardır; ancak nedenin bir hekim tarafından araştırılması önemlidir.",
+      "source": "Genel tıbbi bilgi (uzman beyanları). RESMİ KILAVUZLA DOĞRULANMALI.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "acil-durumlar",
+      "title": "Beklemeden başvurulması gereken durumlar",
+      "tags": ["kan tükürme", "kanlı balgam", "acil", "112", "şiddetli göğüs ağrısı", "ani nefes darlığı"],
+      "always_for": [],
+      "text": "Balgamda kan görülmesi, hangi risk grubunda olursanız olun, gecikmeden bir sağlık kuruluşuna başvurmayı gerektirir. Fazla miktarda kan tükürme, ani ve şiddetli nefes darlığı ya da şiddetli göğüs ağrısı durumunda beklemeden 112'yi arayın veya en yakın acile gidin.",
+      "source": "Genel tıbbi bilgi (uzman beyanları). RESMİ KILAVUZLA DOĞRULANMALI.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "sigara-birakma",
+      "title": "Sigara ve bırakma desteği",
+      "tags": ["sigara", "tütün", "bırakma", "sarı parmak", "ALO 171"],
+      "always_for": [],
+      "text": "Sigara, akciğer sağlığını etkileyen en önemli risk faktörüdür ve bırakmak, ne zaman olursa olsun akciğer sağlığına katkı sağlar. T.C. Sağlık Bakanlığı'nın ALO 171 Sigara Bırakma Danışma Hattı haftanın 7 günü, 24 saat hizmet verir; sabit hatlardan ücretsiz aranabilir ve gerektiğinde sigara bırakma polikliniklerine yönlendirme ve randevu desteği sağlar.",
+      "source": "T.C. Sağlık Bakanlığı ALO 171 Sigara Bırakma Danışma Hattı - https://alo171.saglik.gov.tr/",
+      "review_status": "kaynakla_dogrulandi"
+    },
+    {
+      "id": "dusuk-skor-sinirlari",
+      "title": "Düşük risk sonucunun sınırları",
+      "tags": ["düşük risk", "belirti sürerse", "güvence"],
+      "always_for": ["LOW", "BORDER"],
+      "text": "Düşük risk sonucu, bir hastalığın tamamen dışlandığı anlamına gelmez. Model yalnızca girdiğiniz bilgilere dayanan bir tahmin üretir. Belirtileriniz devam ediyor ya da kötüleşiyorsa sonuç düşük olsa bile bir hekime başvurun.",
+      "source": "Genel tıbbi bilgi. RESMİ KILAVUZLA DOĞRULANMALI.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "yuksek-skor-anlami",
+      "title": "Yüksek risk sonucu ne anlama gelir",
+      "tags": ["yüksek risk", "tanı değil", "uyarı"],
+      "always_for": ["HIGH", "BORDER"],
+      "text": "Yüksek risk sonucu bir tanı değildir ve bir hastalığınız olduğu anlamına gelmez; hekimle görüşmeniz için bir uyarıdır. Tanı; muayene, akciğer filmi veya bilgisayarlı tomografi gibi görüntüleme ve gerekirse ek tetkiklerle bir hekim tarafından konur.",
+      "source": "Genel tıbbi bilgi. RESMİ KILAVUZLA DOĞRULANMALI.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "randevu-hazirlik",
+      "title": "Hekim randevusuna hazırlık",
+      "tags": ["randevu", "hazırlık", "göğüs hastalıkları", "eski tahliller"],
+      "always_for": ["HIGH", "BORDER"],
+      "text": "Randevuya gitmeden önce belirtilerinizin ne zaman başladığını, ne sıklıkla olduğunu, sigara kullanım öykünüzü, kullandığınız ilaçları ve varsa eski akciğer filmi, tomografi ve tahlil sonuçlarınızı not edip yanınızda götürmeniz değerlendirmeyi kolaylaştırır.",
+      "source": "Genel bilgi.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "kaygi-destek",
+      "title": "Sonuç karşısında kaygı",
+      "tags": ["kaygı", "endişe", "korku", "stres", "bekleme"],
+      "always_for": ["HIGH", "BORDER"],
+      "text": "Böyle bir sonuçla karşılaşınca kaygılanmak çok doğaldır. Sonucun kesin olmadığını hatırlamak, güvendiğiniz bir yakınınızla konuşmak ve randevunuzu geciktirmeden almak endişeyi azaltmaya yardımcı olabilir.",
+      "source": "Genel bilgi.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "kronik-hastalik-takip",
+      "title": "Kronik hastalıklarda düzenli takip",
+      "tags": ["kronik hastalık", "KOAH", "astım", "düzenli kontrol", "ilaç"],
+      "always_for": [],
+      "text": "Bilinen bir kronik hastalığınız varsa düzenli kontrollerinizi ve hekiminizin önerdiği ilaçları aksatmayın; belirtilerinizde olağan seyrin dışında bir değişiklik fark ederseniz bunu hekiminize bildirin.",
+      "source": "Genel bilgi.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "gorsel-degerlendirme",
+      "title": "Görüntünün otomatik analizi",
+      "tags": ["röntgen", "tomografi", "görüntü", "radyoloji", "yüklenen görüntü"],
+      "always_for": [],
+      "text": "Yüklenen görüntünün otomatik analizi bir ön değerlendirme niteliğindedir; röntgen veya tomografinin yorumu bir radyoloji ya da göğüs hastalıkları uzmanı tarafından yapılmalıdır.",
+      "source": "Genel bilgi.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "nefes-darligi-hirilti",
+      "title": "Nefes darlığı ve hırıltı",
+      "tags": ["nefes darlığı", "hırıltı", "solunum", "öksürük"],
+      "always_for": [],
+      "text": "Nefes darlığı ve hırıltılı solunum astım, KOAH ve enfeksiyonlar gibi birçok nedene bağlı olabilir. Nedenin ayırt edilmesi için bir göğüs hastalıkları uzmanı muayene eder ve gerekirse solunum fonksiyon testi gibi ek tetkikler yapar.",
+      "source": "Genel tıbbi bilgi. RESMİ KILAVUZLA DOĞRULANMALI.",
+      "review_status": "taslak"
+    },
+    {
+      "id": "yutma-ses",
+      "title": "Yutma güçlüğü ve ses kısıklığı",
+      "tags": ["yutma güçlüğü", "ses kısıklığı"],
+      "always_for": [],
+      "text": "Yutma güçlüğü ya da üç haftadan uzun süren ses kısıklığı da hekim değerlendirmesi gerektiren belirtilerdir; bu belirtiler akciğer dışındaki pek çok nedenden de kaynaklanabilir.",
+      "source": "Genel tıbbi bilgi. RESMİ KILAVUZLA DOĞRULANMALI.",
+      "review_status": "taslak"
+    }
+  ]
+}
